@@ -1,0 +1,11 @@
+[project]
+name = "secure-sdlc-guardrail"
+version = "0.1.0"
+description = "Explainable security policy checks for repositories and CI/CD pipelines"
+requires-python = ">=3.11"
+
+[project.scripts]
+sdlc-guardrail = "sdlc_guardrail.cli:main"
+
+[tool.ruff]
+line-length = 100
